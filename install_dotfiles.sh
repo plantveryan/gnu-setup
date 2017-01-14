@@ -29,5 +29,5 @@ git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 
 vim +PluginInstall +qall
 
-~/.vim/bundle/youcompleteme/install.sh
+python ~/.vim/bundle/youcompleteme/install.py
 
