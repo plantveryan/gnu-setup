@@ -1,3 +1,12 @@
+# bachup origial dot files if exists
+if [ -f ~/.vimrc ]; then
+    cp ~/.vimrc ~/.vimrc.original.backup;
+fi
+
+if [ -f ~/.tmux.conf ]; then
+    cp ~/.tmux.conf ~/.tmux.conf.original.backup;
+fi
+
 # git clone https://github.com/plantveryan/gnu-setup.git
 cp vimrc ~/.vimrc
 cp tmux.conf ~/.tmux.conf
